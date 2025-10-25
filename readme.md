@@ -1,25 +1,25 @@
 folder structure
 backend/
 │
-├── src/
-│   ├── config/
-│   │   └── db.js
-│   ├── utils/
-│   │   ├── apiError.js
-│   │   ├── apiResponse.js
-│   │   └── parseCsv.js
-│   ├── controllers/
-│   │   └── userController.js
-│   ├── routes/
-│   │   └── userRoutes.js
-│   ├── app.js
-│   └── server.js
-│
-├── data/
-│   └── users.csv
-├── .env
-├── package.json
-└── Readme.md  , assumptions.md
+src/
+config/
+ db.js
+utils/
+ apiError.js
+ apiResponse.js
+ parseCsv.js
+controllers/
+ userController.js
+routes/
+ userRoutes.js
+app.js
+server.js
+
+data/
+ users.csv
+.env
+package.json
+Readme.md  , assumptions.md
 
 
 ## Setup Instructions
