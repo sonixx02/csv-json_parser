@@ -1,22 +1,11 @@
 folder structure
-backend/
-│
-src/
-config/
- db.js
-utils/
- apiError.js
- apiResponse.js
- parseCsv.js
-controllers/
- userController.js
-routes/
- userRoutes.js
-app.js
-server.js
 
-data/
- users.csv
+backend -> src/ 
+config/ db.js
+utils/ apiError.js apiResponse.js parseCsv.js  
+controllers/ userController.js
+routes/ userRoutes.jsapp.jsserver.js
+data/ users.csv
 .env
 package.json
 Readme.md  , assumptions.md
@@ -60,6 +49,7 @@ CREATE TABLE public.users (
   id serial4 PRIMARY KEY
 );
 
+
 Run the server
 npm run dev
 Server runs on http://localhost:3000
@@ -74,3 +64,13 @@ takes csv path from .env
 // add data in /data folder in this format name should be users.csv
 <!-- name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,gender,contact.email,contact.phone
 Arjun,Rao,27,22 Bluebell Lane,Sunset Boulevard,Bangalore,Karnataka,male,arjun.rao@example.com,9876543210 -->
+
+// upload-csv endpoint
+<img width="1920" height="1080" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/815b8d7e-fdeb-4945-afac-4798919ca1f1" />
+
+// get endpoint results
+<img width="1920" height="1080" alt="Screenshot (297)" src="https://github.com/user-attachments/assets/cb02808c-67b0-4ae9-b22f-b5d737406b3b" />
+
+// postgres db 
+<img width="1920" height="1080" alt="Screenshot (295)" src="https://github.com/user-attachments/assets/5c196c83-4999-4557-8039-35de37726168" />
+
