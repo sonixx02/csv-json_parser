@@ -1,0 +1,3 @@
+name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,gender,contact.email,contact.phone
+
+Rajesh,Das,52,66 Willow Lane,Maple Avenue,Bhubaneswar,Odisha,male,rajesh.das@example.com,8877665544
