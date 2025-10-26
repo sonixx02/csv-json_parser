@@ -4,7 +4,6 @@
 · Express.js - Web framework
 · PostgreSQL - Database
 · pg (node-postgres) - PostgreSQL client
-· csv-parser - CSV file processing(custom)
 ```
 
 Project Structure
