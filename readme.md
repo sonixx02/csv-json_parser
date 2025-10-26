@@ -62,10 +62,10 @@ takes csv path from .env
 
 
 // add data in /data folder in this format name should be users.csv
-<!-- name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,gender,contact.email,contact.phone
-Arjun,Rao,27,22 Bluebell Lane,Sunset Boulevard,Bangalore,Karnataka,male,arjun.rao@example.com,9876543210 -->
+name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,gender,contact.email,contact.phone
+Arjun,Rao,27,22 Bluebell Lane,Sunset Boulevard,Bangalore,Karnataka,male,arjun.rao@example.com,9876543210 
 
-// upload-csv endpoint
+// upload-csv endpoint n age distribution output
 <img width="1920" height="1080" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/815b8d7e-fdeb-4945-afac-4798919ca1f1" />
 
 // get endpoint results
