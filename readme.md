@@ -32,7 +32,7 @@ backend/
 └── assumptions.md
 ```
 
-⚙️ Setup Instructions
+Setup Instructions
 
 Prerequisites
 
@@ -158,7 +158,7 @@ Response:
 }
 ```
 
-📝 CSV Format
+CSV Format
 
 Create your CSV file in /data/users.csv with the following format:
 
