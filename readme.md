@@ -10,23 +10,20 @@ data/ users.csv
 package.json
 Readme.md  , assumptions.md
 
+Tech Stack & Tools Used
+Node.js → runtime environment for executing JavaScript on the server.
+Express.js → lightweight framework used to build RESTful APIs and handle routes like /api/users/upload-csv and /api/users.
+PostgreSQL → relational database used to store and query user data efficiently.
+pg (node-postgres) → PostgreSQL client for Node.js to connect and perform database operations.
 
 ## Setup Instructions
-
 Clone the repo
-
 git clone <your-repo-url>
 cd project
-
-
 Install dependencies
-
 npm install
-
-
 Setup .env
 Example .env:
-
 PORT=3000
 CSV_FILE_PATH=./data/users.csv
 DB_HOST=localhost
